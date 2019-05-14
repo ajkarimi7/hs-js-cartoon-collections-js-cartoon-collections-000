@@ -46,7 +46,7 @@ function longPlaneteerCalls(call) {
 
 function findTheCheese(recipe) {
  
- var cheeses = ["cheddar", "gouda", "camembert"];
+ var cheeses = ["cheddar", "gouda", "camembert", "swiss"];
  
  for (var i = 0; i < recipe.length; i++) {
    
@@ -64,4 +64,14 @@ function findTheCheese(recipe) {
  
  return "no cheese!";
  
+}
+
+function wordsWithB(words) {
+  
+  var bWords = [];
+  
+  for (var i = 0; i < words.length; i++) {
+    
+    if (words[0].length = "b")
+  }
 }
