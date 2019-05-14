@@ -51,4 +51,9 @@ describe("wordsWithB", function() {
         var words = ["apple", "banana", "bean", "cherry"];
         expect(wordsWithB(words)).toEqual("banana, beans");
       });
+      
+      it("returns 'no b's!' if the array does not contain a type of cheese", function() {
+        var noCheeseArray = ["banana", "tomato", "sock"];
+        expect(findTheCheese(noCheeseArray)).toEqual("no cheese!");
+      });
 });
