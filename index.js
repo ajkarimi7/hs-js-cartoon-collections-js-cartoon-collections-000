@@ -1,60 +1,61 @@
 function dwarfRollCall(dwarves) {
   
-  var endString = "";
+  var names = ""
   
   for (var i = 0; i < dwarves.length; i++) {
-    endString += (i+1).toString() + ". " + dwarves[i] + " ";
+    
+    names += [i + 1] + ". " + dwarves[i] + " "
+    
   }
   
-  return endString;
+  return names
   
 }
 
-
-function summonCaptainPlanet(planeteerCalls){
+function summonCaptainPlanet(planeteerCalls) {
   
   var calls = [];
   
   for (var i = 0; i < planeteerCalls.length; i++) {
     
-    calls.push(planeteerCalls[i].toUpperCase() + "!");
-    
+    calls.push(planeteerCalls[i].toUpperCase() + "!")
   }
+ 
+ return calls
   
-  return calls;
-
 }
 
 function longPlaneteerCalls(words) {
   
-	var hasLongWords = false;
-	
+  var longCalls = false;
+  
   for (var i = 0; i < words.length; i++) {
     
-    if (words[i].length > 4){
+    if (4 < words[i].length) {
       
-      hasLongWords = true;
+      longCalls = true;
       
     }
-    
   }
   
-  return hasLongWords;
+  return longCalls;
   
 }
 
-
-function findTheCheese (foods) {
+function findTheCheese(foods) {
   
-  var cheeses = ["cheddar", "gouda", "camembert" ];
+  var cheeses = ["cheddar", "gouda", "camembert"];
   
-  for (var i = 0; i < foods.length; i++) {
+  for (var i = 0; i < foods.length; i ++) {
+    
     for (var c = 0; c < cheeses.length; c++) {
-      if (cheeses[c] === foods[i]) {
+      
+      if (foods[i] === cheeses[c]) {
+        
         return foods[i];
       }
     }
   }
   
-  return "no cheese!";
+  return "no cheese!"
 }
