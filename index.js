@@ -69,11 +69,11 @@ function findTheCheese(recipe) {
 
 function wordsWithB(words) {
 
-  var bWords = [];
+  var bWords = "";
 
   for (var i = 0; i < words.length; i++) {
 
-    bWords = words.includes("b");
+    bWords += words.includes("b");
     
   }
   
