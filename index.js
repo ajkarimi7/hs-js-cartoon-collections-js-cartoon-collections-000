@@ -66,5 +66,16 @@ function findTheCheese(recipe) {
  
 }
 
+var words = ["Apple", "Banana", "Bean", "Cherry"];
+
+function wordsWithB(words) {
+
+  var bWords = [];
+
+  for (var i = 0; i < words.length; i++) {
+
+    bWords.push(words.search("b"));
+  }
+}
 
 
