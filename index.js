@@ -65,21 +65,3 @@ function findTheCheese(recipe) {
  return "no cheese!";
  
 }
-
-
-
-function wordsWithB(words) {
-
-  var bWords = [];
-
-  for (var i = 0; i < words.length; i++) {
-
-    bWords = words.startsWit.push();
-    
-  }
-  
-  return bWords;
-}
-
-
-
