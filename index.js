@@ -73,7 +73,7 @@ function wordsWithB(words) {
 
   for (var i = 0; i < words.length; i++) {
 
-    bWords.push(words.search("b"));
+    bWords.push(words.startsWith("b"));
   }
   
   return bWords;
