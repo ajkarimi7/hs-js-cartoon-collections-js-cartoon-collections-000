@@ -53,7 +53,7 @@ describe("wordsWithB", function() {
       });
       
       it("returns 'no b's!' if the array does not contain any b's.", function() {
-        var noBArray = ["Apple"];
-        expect(findTheCheese(noCheeseArray)).toEqual("no cheese!");
+        var noBArray = ["apple", "cherry"];
+        expect(wordsWithB(noBArray)).toEqual("no b's!");
       });
 });
