@@ -73,7 +73,7 @@ function wordsWithB(words) {
 
   for (var i = 0; i < words.length; i++) {
 
-    bWords = words.includes("b").push();
+    bWords = words.startsWit.push();
     
   }
   
