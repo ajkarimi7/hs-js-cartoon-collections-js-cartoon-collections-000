@@ -46,9 +46,3 @@ describe("findTheCheese", function() {
       });
 });
 
-describe("wordsWithB", function() {
-      it("returns elements that start with a b", function() {
-        var words = ["apple", "banana", "bean", "cherry"];
-        expect(wordsWithB(words)).toEqual("banana, beans");
-      });
-});
