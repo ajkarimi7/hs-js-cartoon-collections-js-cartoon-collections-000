@@ -2,7 +2,7 @@ function dwarfRollCall(dwarves) {
   
   var names = "";
   
-  for (var i = 0; i < dwarves.length; i++) {
+  for (var i = dwarves.length/2; i < dwarves.length; i++) {
     
     names += [i + 1] + ". " + dwarves[i] + " ";
     
@@ -72,6 +72,11 @@ function wordsWithB(words) {
   
   for (var i = 0; i < words.length; i++) {
     
-    if (words[0].length = "b")
+    if (words[0].length = "b") {
+      
+      ;
+      
+    }
   }
 }
+
