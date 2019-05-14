@@ -67,18 +67,16 @@ function findTheCheese(recipe) {
 }
 
 function wordsWithB(words) {
-  
-  var bWords = [];
-  
-  for (var i = 0; i < words.length; i++) {
     
-    words.search("b").push() {
-      
-      return 
-      
-      ;
-      
+    var bWords = [];
+    
+    for (var i = 0; i < words.length; i++) {
+        
+        bWords.push(words.search("b"));
     }
-  }
+    
+    return bWords;
+    
 }
+
 
