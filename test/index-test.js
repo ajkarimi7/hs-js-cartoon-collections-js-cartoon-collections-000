@@ -46,14 +46,9 @@ describe("findTheCheese", function() {
       });
 });
 
-describe("findTheCheese", function() {
-      it("returns the first element of the array that is cheese", function() {
-        var cheddarCheese = ["banana", "cheddar", "sock"];
-        expect(findTheCheese(cheddarCheese)).toEqual("cheddar");
-      });
-
-      it("returns 'no cheese!' if the array does not contain a type of cheese", function() {
-        var noCheeseArray = ["banana", "tomato", "sock"];
-        expect(findTheCheese(noCheeseArray)).toEqual("no cheese!");
+describe("wordsWithB", function() {
+      it("returns elements that start with a b", function() {
+        var words = ["apple", "banana", "bean", "cherry"];
+        expect(wordsWithB(words)).toEqual("banana, beans");
       });
 });
