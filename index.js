@@ -72,7 +72,9 @@ function wordsWithB(words) {
   
   for (var i = 0; i < words.length; i++) {
     
-    if (words[0].length = "b") {
+    if (words.search() = "b") {
+      
+      return 
       
       ;
       
